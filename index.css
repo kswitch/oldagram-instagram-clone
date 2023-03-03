@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,900;1,300;1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header, main {
+    width: 450px;
+    margin: auto;  
+    padding: 0px 20px;
+    box-shadow: 0px 0px 5px black;
+}
+main {
+    padding-bottom: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 10px 20px;
+}
+
+header img {
+    height: 50px;
+}
+
+header img:hover {
+    opacity: 0.5;
+}
+
+img.header-avatar {
+    border-radius: 50%;
+}
+
+.head, .post, .info-and-comments {
+    margin: 0;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    padding: 35px 0 15px 20px;
+    border-top: 1px solid black;
+}
+.head img {
+    width: 40px;
+    height: 40%;
+    border-radius: 50%;
+    margin: 15px 15px 0 0;
+}
+.avatar {
+    padding-top: 7px;
+}
+
+.avatar p {
+    margin-bottom: 0;
+    line-height: 5px;
+}
+
+.post img{
+    width: 100%;
+}
+
+.info-and-comments {
+    padding-left: 20px;
+}
+.icons img {
+    padding: 15px 10px 0 0;
+    width: 30px;
+}
+
+.icons img:hover {
+    opacity: 0.5;
+}
+
+.bottom-spacer {
+    width:490px;
+    margin: auto;
+    border: 1px solid black;
+}
